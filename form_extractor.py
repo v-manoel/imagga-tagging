@@ -20,10 +20,10 @@ class FormExtractor:
         form_responses = self.extract_form_image_responses(image['id'])
 
         responses_list = []
-        for _, response in form_responses.iterrows():
+        for index, response in form_responses.iterrows():
             formated_response = self.format_response_as_list(response)
             image_responses = ImageResponses(
-                image, formated_response[0], formated_response[1])
+                index, image, formated_response[0], formated_response[1])
             responses_list.append(image_responses)
 
         return responses_list
