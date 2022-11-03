@@ -1,0 +1,79 @@
+{
+    "images": [
+        {
+            "id": 0,
+            "url": "https://cdn.pixabay.com/photo/2019/09/01/18/32/coker-4445774__340.jpg",
+            "label": "Golden Dog"
+        },
+        {
+            "id": 1,
+            "url": "https://cdn.pixabay.com/photo/2016/11/21/13/58/ball-1845546__340.jpg",
+            "label": "Happy Ball at Sea"
+        },
+        {
+            "id": 2,
+            "url": "https://cdn.pixabay.com/photo/2014/05/05/14/14/meadow-338211__340.jpg",
+            "label": "Tree"
+        },
+        {
+            "id": 3,
+            "url": "https://cdn.pixabay.com/photo/2017/01/14/10/56/people-1979261__340.jpg",
+            "label": "Business People"
+        },
+        {
+            "id": 4,
+            "url": "https://cdn.pixabay.com/photo/2019/10/22/13/43/man-4568761__340.jpg",
+            "label": "Black Man in Suit"
+        },
+        {
+            "id": 5,
+            "url": "https://cdn.pixabay.com/photo/2016/11/22/19/26/adult-1850184__340.jpg",
+            "label": "Artist Couple Dancing"
+        },
+        {
+            "id": 6,
+            "url": "https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149__340.jpg",
+            "label": "Man Working Out"
+        },
+        {
+            "id": 7,
+            "url": "https://cdn.pixabay.com/photo/2016/11/29/01/22/automotive-1866521__340.jpg",
+            "label": "Woman Driving A Car"
+        },
+        {
+            "id": 8,
+            "url": "https://images.rawpixel.com/image_500/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2ZyZm94X3ZpbnRhZ2VfY2Ftb3VmbGFnZV9hdXR1bW4taW1hZ2Uta3liZGxkcm8uanBn.jpg",
+            "label": "Red Fox Paint"
+        },
+        {
+            "id": 9,
+            "url": "https://images.rawpixel.com/image_500/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MjI3Mjc1OC13aWtpbWVkaWEtaW1hZ2Uta293czV2bGwuanBn.jpg",
+            "label": "Red Bird Picture"
+        },
+        {
+            "id": 10,
+            "url": "https://imagga-demo-uploads.s3.amazonaws.com/tagging-demo/885ca30bbbf5e8cbd5ab8081699b6324.jpg",
+            "label": "skateboard at beach"
+        },
+        {
+            "id": 11,
+            "url": "https://cdn.pixabay.com/photo/2013/06/09/06/07/meat-123668__340.jpg",
+            "label": "Barbecue"
+        },
+        {
+            "id": 12,
+            "url": "https://cdn.pixabay.com/photo/2016/08/09/10/30/tomatoes-1580273__340.jpg",
+            "label": "Tomatoes Salad"
+        },
+        {
+            "id": 13,
+            "url": "https://cdn.pixabay.com/photo/2016/11/18/17/20/living-room-1835923__340.jpg",
+            "label": "Furnitured Room"
+        },
+        {
+            "id": 14,
+            "url": "https://cdn.pixabay.com/photo/2014/11/17/12/15/semi-trailers-534577__340.jpg",
+            "label": "Truck on Road"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+xlrd #Este módulo é usado para extrair dados de uma planilha
+openpyxl #Esta é uma biblioteca Python para ler e escrever Excel.
+pandas
+requests
+pysinonimos
+matplotlib
+unidecode
