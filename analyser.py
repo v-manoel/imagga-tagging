@@ -1,9 +1,8 @@
 from tags_generator import RekognitionApiHandler
-from constants import AnalyserConfigs, Constants
+from constants import AnalyserConfigs
 from form_extractor import FormExtractor
 from utils import Utils
 import numpy as np
-import json
 import matplotlib.pyplot as plt
 from unidecode import unidecode
 
