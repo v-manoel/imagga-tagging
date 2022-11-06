@@ -1,4 +1,3 @@
-
 import pandas as pd
 from image_responses import ImageResponses
 
@@ -8,9 +7,17 @@ class FormExtractor:
     Form Structure:
     Datetime | Email | Question1 | Question2
     """
+    RESPONSES_INDEX_LIST = None
 
-    def __init__(self, form_path) -> None:
+    def __init__(self, form_path, responses_index_list: list = []) -> None:
         self.form = pd.read_excel(form_path)
+
+        # Testing python attr level access
+        responses_size = len(responses_index_list)
+        if responses_size > 0 and responses_size <= len(self.form):
+            FormExtractor.RESPONSES_INDEX_LIST = responses_index_list
+        else:
+            self.RESPONSES_INDEX_LIST = range(len(self.form))
 
         # remove ununcessary fields
         self.form = self.form.drop(axis='columns', labels=[
@@ -35,7 +42,10 @@ class FormExtractor:
         """
         form_indexes = image_index * 2, image_index * 2+1
 
-        responses = self.form.iloc[:, [form_indexes[0], form_indexes[1]]]
+        responses = self.form.iloc[
+            self.RESPONSES_INDEX_LIST, [
+                form_indexes[0], form_indexes[1]]
+        ]
 
         return responses
 
@@ -48,3 +58,12 @@ class FormExtractor:
             )
 
         return formated_responses
+
+    @staticmethod
+    def get_n_responses(form_path) -> None:
+        form = pd.read_excel(form_path)
+
+        if FormExtractor.RESPONSES_INDEX_LIST:
+            return len(FormExtractor.RESPONSES_INDEX_LIST)
+
+        return len(form)
